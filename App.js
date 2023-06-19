@@ -1,3 +1,7 @@
+import React from 'react';
+import FilterableProductTable from './FilterableProductTable';
+import { PRODUCTS } from './data';
+
 function FilterableProductTable({products}) {
   const [filterText, setFilterText] = useState('');
   const [inStockOnly, setInStockOnly] = useState(false);
